@@ -133,10 +133,10 @@ h1, h2, h3, h4, h5, h6 {
   padding: 4.5em 0; }
   @media (min-width: 768px) {
     .site-section {
-      padding: 6em 0; }    
+      padding: 4em 0; }    
       
     .site-section-2 {
-      padding: 2em 0; }
+      padding: 4em 0; }
 
     .site-section-3 {
       padding: 4em 0; } }
@@ -560,7 +560,7 @@ h1, h2, h3, h4, h5, h6 {
     min-height: 600px;
     height: calc(80vh); }
   .site-blocks-cover h1 {
-    font-size: 8rem;
+    font-size: 5.5rem;
     font-weight: 900;
     line-height: 1; }
     @media (max-width: 991.98px) {
@@ -897,9 +897,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .img-galery{
   width: 100%;
-  height: 400px;
+  height: 700px;
 }
 
+.img-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 
 @media (min-width: 395px) and (max-width: 490px) {
@@ -910,8 +915,8 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold; }  
 
   .site-blocks-cover h1 {
-    font-size: 60px;
-    margin-top: 320px;}
+    font-size: 50px;
+    margin-top: 400px;}
   
     .site-blocks-cover .intro .heading {
       margin-left: 0;
@@ -927,8 +932,8 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold; }   
   
   .site-blocks-cover h1 {
-    font-size: 50px;
-    margin-top: 320px; }
+    font-size: 42px;
+    margin-top: 216px; }
 
   .site-blocks-cover .intro .heading {
     margin-left: 0;
